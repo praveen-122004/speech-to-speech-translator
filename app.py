@@ -1,3 +1,8 @@
+import os
+os.system("pip install pyaudio==0.2.11")
+
+
+
 import streamlit as st
 import speech_recognition as sr
 import google.generativeai as genai
